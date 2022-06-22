@@ -1,17 +1,13 @@
-import React,{Component} from "react";
+import React from "react";
 import Lio from "./Lio";
 import Tit from "./Tit";
 
-
-class Wain extends Component
+function Wain(props)
 {
-  render()
-  {
-    return <div>
+  return <div>
       <Tit title= {'photowall'}/>
     </div>
-
-  }
 }
+
 
 export default Wain

@@ -1,15 +1,13 @@
 import React,{Component} from "react";
 
-class Photo extends Component
+function Photo(props)
 {
-    render()
-    {
-        return <figure className="figure">
-        <div className="button-container">
-            <button className="remove-button">Remove</button>
+    return <figure className="figure">
+    <div className="button-container">
+        <button className="remove-button">Remove</button>
 
-        </div></figure>
-    }
+    </div></figure>
 }
+
 
 export default Photo

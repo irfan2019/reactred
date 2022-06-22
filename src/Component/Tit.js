@@ -3,19 +3,14 @@ import React,{Component} from "react";
 const posts=[{
   id:"0",
   description:"first image",
-  imageLink:""
+  imageLink:"./public/images/bike.jpg"
 }
 
 ]
 
-
-class Tit extends Component
+function Tit(props)
 {
-  render()
-  {
-    return <h1>{this.props.title}</h1>
-
-  }
+  return <h1>{props.title}</h1>
 }
 
 export default Tit

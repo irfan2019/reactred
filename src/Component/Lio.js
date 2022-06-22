@@ -1,15 +1,13 @@
-import React,{Component} from "react";
+import React from "react";
 
-class Lio extends Component
+function Lio(props)
 {
-  render()
-  {
-    return(
-      <ol>
-  {this.props.arr.map((task,index) => <li key = {index}> {task} </li>)}
+  return(
+    <ol>
+{this.props.arr.map((task,index) => <li key = {index}> {task} </li>)}
 </ol>
-    )
-  }
+  )
 }
+
 
 export default Lio

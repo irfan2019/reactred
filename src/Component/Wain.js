@@ -8,8 +8,7 @@ class Wain extends Component
   render()
   {
     return <div>
-      <Tit/>
-      <Lio arr={['okok','koko','kookookkkk']}  />
+      <Tit title= {'photowall'}/>
     </div>
 
   }

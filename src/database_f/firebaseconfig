@@ -1,0 +1,19 @@
+import * as firebase from 'firebase'
+
+
+const firebaseConfig = {
+    apiKey: "AIzaSyBNMRBbzKljwqIk9YknX_GRJNUAYMvtdig",
+    authDomain: "photowall-47fa7.firebaseapp.com",
+    databaseURL: "https://photowall-47fa7-default-rtdb.firebaseio.com",
+    projectId: "photowall-47fa7",
+    storageBucket: "photowall-47fa7.appspot.com",
+    messagingSenderId: "75217748327",
+    appId: "1:75217748327:web:e3cc234490237c04a6efc2",
+    measurementId: "G-Y1NPQ98NFH"
+  };
+
+  firebase.initializeApp(firebaseConfig)
+
+  const database=firebase.database()
+
+  export {database}
